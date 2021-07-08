@@ -1,0 +1,42 @@
+.root {
+  @apply bg-secondary text-accents-1 cursor-pointer px-10 leading-6 font-semibold
+  uppercase py-4 items-center;
+  @apply h-12 w-12 bg-primary text-primary rounded-full mr-3 inline-flex
+  items-center justify-center transition duration-150 ease-in-out
+  p-0 shadow-none border-gray-200 border box-border;
+
+  & > span {
+    @apply absolute;
+  }
+
+  &:hover {
+    @apply transform scale-110 text-primary border border-secondary;
+  }
+
+  &:focus {
+    @apply outline-none;
+  }
+}
+
+.sm {
+  @apply h-7;
+}
+
+.color {
+  @apply text-black transition duration-150 ease-in-out;
+
+  &:hover {
+    @apply text-black;
+  }
+
+  &.dark,
+  &.dark:hover {
+    color: white !important;
+  }
+}
+
+.active {
+  &.size, &.color {
+    @apply border-accents-9 border-2;
+  }
+}

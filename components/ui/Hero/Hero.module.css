@@ -1,0 +1,22 @@
+
+
+.root {
+  @apply flex flex-col py-32 justify-center;
+
+  @screen md {
+    @apply flex-row;
+  }
+}
+
+.headline {
+  @apply flex-1 max-w-xl text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-none
+         sm:tracking-tight lg:text-6xl;
+}
+
+.description {
+  @apply mt-5 text-xl leading-7 text-white;
+}
+
+.link  {
+  @apply block text-white pt-3 font-bold hover:underline cursor-pointer;
+}

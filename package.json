@@ -1,0 +1,35 @@
+{
+  "name": "ecommerce-next-shopify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:css": "postcss assets/main.css -o assets/main_browser.css"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^3.1.5",
+    "classnames": "^2.3.1",
+    "js-cookie": "^2.2.1",
+    "keen-slider": "^5.5.1",
+    "next": "10.2.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-ticker": "^1.2.2",
+    "swr": "^0.5.6"
+  },
+  "devDependencies": {
+    "@types/body-scroll-lock": "^2.6.1",
+    "@types/js-cookie": "^2.2.6",
+    "@types/react": "^17.0.9",
+    "autoprefixer": "^10.2.6",
+    "deepmerge": "^4.2.2",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-nesting": "^8.0.1",
+    "prettier": "^2.3.1",
+    "tailwindcss": "^2.1.4",
+    "typescript": "^4.3.2"
+  }
+}
